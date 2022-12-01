@@ -117,8 +117,6 @@ Merges all data from channel.csv, videos.csv and comments.csv for further analys
 
 ### Sentiment_Analysis_Preprocess Results:
 .txt files grouped by channel containing text ready for sentiment analysis
-## Data Origins
-YouTube API v3
 
 ## Use Cases
 The goal of collecting the Valorant comment data from the YouTube API is to make it available for sentiment analysis. This sentiment analysis may be interesting to marketers, both of games and products targeted at gamers, streamers looking to improve their popularity or gaming companies seeking feedback.

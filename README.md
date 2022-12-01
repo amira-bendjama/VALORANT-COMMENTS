@@ -75,8 +75,7 @@ nltk
  
 ### RESULTS
 
-File: Preprocessed_Data
--.txt files grouped by channel containing text ready for sentiment analysis
+.txt files grouped by channel containing text ready for sentiment analysis
 
 
 

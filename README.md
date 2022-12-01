@@ -143,7 +143,7 @@ Our choice of the YouTube API as the source of our data gives us confidence that
 We have chosen to distribute our data on GitHub
 
 ## Conclusion
-This project has given us an excellent tutorial in the challenges of working with APIs and their limitations as well as helped us to learn about the requirements, difficulties and considerations, of data pre-processing for sentiment analysis. This has been a useful excercise in growing our data science skills and allowed us to return an interesting dataset that could be recreated in different ways to answer many interesting questions.
+This project has given us an excellent tutorial in the challenges of working with APIs and their limitations as well as helped us to learn about the requirements, difficulties and considerations, of data pre-processing for sentiment analysis. This has been a useful exercise in growing our data science skills and allowed us to return an interesting dataset that could be recreated in different ways to answer many interesting questions.
 
 
 

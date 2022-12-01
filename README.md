@@ -21,12 +21,12 @@ Collect comment data from YouTube API
 -You must first get an API Key for the YouTube API (https://developers.google.com/youtube/v3/getting-started)
 
 Libraries:
---Pandas
---googleapiclient.discovery
---requests
---BeautifulSoup
---re
---json
+- Pandas
+- googleapiclient.discovery
+- requests
+- BeautifulSoup
+- re
+- json
 
 Files:
 ##### YouTubers.csv
@@ -73,17 +73,20 @@ Merges all data from channel.csv, videos.csv and comments.csv for further analys
 Pre-process comment data for Sentiment Analysis
 
 #### REQUIREMENTS
-csv
-pandas
-demoji
-re
-contractions
-nltk
- nltk.download('stopwords')
- nltk.download('wordnet')
- nltk.download('omw-1.4')
- from nltk.corpus import stopwords
- from nltk.stem import WordNetLemmatizer
+Libraries: 
+- csv
+- pandas
+- demoji
+- re
+- contractions
+- nltk
+ - nltk.download('stopwords')
+ - nltk.download('wordnet')
+ - nltk.download('omw-1.4')
+ - from nltk.corpus import stopwords
+ - from nltk.stem import WordNetLemmatizer
+ Files:
+ - comments_videos_channel_info.csv (result of Valorant-Comments)
  
 #### RESULTS
 

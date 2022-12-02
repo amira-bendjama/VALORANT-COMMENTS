@@ -54,6 +54,8 @@ In order to access the API, a project must be created in [Google Developer’s C
  Install libraries for Google API client for python
 ```  
 pip install --upgrade google-api-python-client
+# restart juypternotebook after installing html5lib
+pip install html5lib
 ```
 
 ```

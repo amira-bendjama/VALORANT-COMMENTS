@@ -3,25 +3,25 @@
 ### Data Acquisition and Pre-processing for Sentiment Analysis
 This project collects the most recent comments and videos from a selection of Youtubers streaming the popular game Valorant, utilizing Youtube API v3 and a user-defined file of Youtubers.
 ## Table of Contents
-    Introduction
-    Features
-    REQUIREMENTS
-        Installation
-    Running the Scripts
-    Data Tables
-        CHANNEL TABLE
-        VIDEO TABLE
-        COMMENTS TABLE
-    Data collection
-        DATASET RESULT FILES
-    Use Cases
-        Criteria for picking streamers
-    Issues & Limitations
-        Limits in Acquiring Data
-        Limits in Utilizing Data
-    Distribution & Access Rights
-    Conclusion
-    Contributors
+Introduction
+Features
+Requirement
+    Installation
+Running the Scripts
+Data Tables
+    CHANNEL TABLE
+    VIDEO TABLE
+    COMMENTS TABLE
+Data collection
+    DATASET RESULT FILES
+Use Cases
+    Criteria for picking streamers
+Issues & Limitations
+    Limits in Acquiring Data
+    Limits in Utilizing Data
+Distribution & Access Rights
+Conclusion
+Contributors
  
 ## Introduction
 Our project looks to showcase how a large gaming company, Riot games, could utilize data from YouTube comments to garner detailed market feedback on its first-person shooter game Valorant. We focused on selectioning large and small gaming YouTubers playing Valorant, where we collected their most recent videos about the game valorant and retrieved their comments. This collected unique information, not available to Riot through its own YouTube channels, as well as provide insights into potential marketing channels (i.e. through influencer-style partnerships or advertising placements with the identified YouTubers).

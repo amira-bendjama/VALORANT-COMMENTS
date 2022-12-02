@@ -32,6 +32,7 @@ Our project looks to showcase how a large gaming company, Riot games, could util
 - Collect most recent 30 videos relating to Valorant in each channel, that will contain all the imortant information about the latter such as video total view count, total likes, total comments, video URL. 
 - Retrieve all the comments of the collected videos, which will have information about the comments such as comment text, total likes, total replies. 
 - Split dataset into small and big Youtubers for specific subscription based analysis.
+- Our dataset has parsed publish date and video duration
 - **NICOLE WRITE YOUR FEATURES**
 
 ## REQUIREMENTS

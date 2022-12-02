@@ -31,6 +31,7 @@ Our project looks to showcase how a large gaming company, Riot games, could util
 - Collect Youtubers channel inforamtion such as total videos, total view, subscription count in a CSV file.
 - Collect most recent 30 videos relating to Valorant in each channel, that will contain all the imortant information about the latter such as video total view count, total likes, total comments, video URL. 
 - Retrieve all the comments of the collected videos, which will have information about the comments such as comment text, total likes, total replies. 
+- Split dataset into small and big Youtubers for specific subscription based analysis.
 - **NICOLE WRITE YOUR FEATURES**
 
 ## REQUIREMENTS
@@ -115,7 +116,8 @@ For each comment on each video in videos.csv columns:
     Likes                       comment total likes   
     Replies                     comment total replies    
     Channel ID                  channel unique code       
-    Video ID                    video unique code    
+    Video ID                    video unique code   
+    
 ## Data collection 
 Initial data was gathered via the YouTube API v3 which allows publicly available YouTube comments to be called by anyone who created an app with their Google account. [GeeksforGeeks](https://www.geeksforgeeks.org/how-to-extract-youtube-comments-using-youtube-api-python/) was used as a reference for the code written to run the API call. The code was modified and resulting data was loaded into a .csv file.
 ### DATASET RESULT FILES
@@ -127,7 +129,8 @@ In our project, there are **22 Youtubers** selected based on their subscription 
 | videos.csv | For each video from each channel in channels.csv columns: Title Channel Title Channel ID Publish time Duration Number of comments Number of likes Number of views video_id url   |    /data/videos.csv |
 | comments.csv | or each comment on each video in videos.csv columns: "Comment ID" "Comment" "Likes" "Replies" "Channel ID" "Video ID"  |    /data/comments.csv |
 | comments_videos_channel_info.csv | Merges all data from channel.csv, videos.csv and comments.csv for further analysis  |/data/comments_videos_channel_info.csv |
-
+| small_youtubers.to_csv | Split dataset from comments_videos_channel_info.csv for further analysis  |data/small_youtubers.csv |
+| big_youtubers.to_csv | Split dataset from comments_videos_channel_info.csv for further analysis  |data/big_youtubers.csv |
 **add text files here**
 .txt files grouped by channel containing text ready for sentiment analysis
 

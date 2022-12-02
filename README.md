@@ -1,27 +1,27 @@
 # Valorant YouTube Comments
-![Screenshot](valo.jpg)
+![Screenshot](https://valorantstrike.com/wp-content/uploads/2020/08/Valorant-Wallpaper-Girls-Dark-Display.jpg)
 ### Data Acquisition and Pre-processing for Sentiment Analysis
 This project collects the most recent comments and videos from a selection of Youtubers streaming the popular game Valorant, utilizing Youtube API v3 and a user-defined file of Youtubers.
 ## Table of Contents
-Introduction
-Features
-Requirement
-    Installation
-Running the Scripts
-Data Tables
-    CHANNEL TABLE
-    VIDEO TABLE
-    COMMENTS TABLE
-Data collection
-    DATASET RESULT FILES
-Use Cases
-    Criteria for picking streamers
-Issues & Limitations
-    Limits in Acquiring Data
-    Limits in Utilizing Data
-Distribution & Access Rights
-Conclusion
-Contributors
+  * [Introduction](#introduction)
+  * [Features](#features)
+  * [REQUIREMENTS](#requirements)
+    + [Installation](#installation)
+  * [Running the Scripts](#running-the-scripts)
+  * [Data Tables](#data-tables)
+        * [CHANNEL TABLE](#channel-table)
+        * [VIDEO TABLE](#video-table)
+        * [COMMENTS TABLE](#comments-table)
+  * [Data collection](#data-collection)
+    + [DATASET RESULT FILES](#dataset-result-files)
+  * [Use Cases](#use-cases)
+    + [Criteria for picking streamers](#criteria-for-picking-streamers)
+  * [Issues & Limitations](#issues---limitations)
+    + [Limits in Acquiring Data](#limits-in-acquiring-data)
+    + [Limits in Utilizing Data](#limits-in-utilizing-data)
+  * [Distribution & Access Rights](#distribution---access-rights)
+  * [Conclusion](#conclusion)
+  * [Contributors ✨](#contributors--)
  
 ## Introduction
 Our project looks to showcase how a large gaming company, Riot games, could utilize data from YouTube comments to garner detailed market feedback on its first-person shooter game Valorant. We focused on selectioning large and small gaming YouTubers playing Valorant, where we collected their most recent videos about the game valorant and retrieved their comments. This collected unique information, not available to Riot through its own YouTube channels, as well as provide insights into potential marketing channels (i.e. through influencer-style partnerships or advertising placements with the identified YouTubers).
@@ -137,10 +137,10 @@ Some potential applications include, to improve the marketing strategies for gam
 
 ### Criteria for picking streamers
 - Only verified channels, with a lower bound of subscription count of 100k, since the latter is how much the channel must reach in order to be eligible to apply for verification, and companies and brands will only consider verified channel to promote their products, in our case games.
-- Most Valorant streamers are based on twitch, so a popular twitch streamers doesn’t qualify as a popular youtuber, so we picked Valorant youtubers that upload on their main YouTube channel and have a certain subscription count.
+- Most Valorant streamers are based on twitch, so a popular twitch streamers doesn’t qualify as a popular youtuber, so we picked Valorant youtubers that upload on their main YouTube channel and have a specific subscription count.
 - The Valorant youtubers are split into two categories: Big youtubers above 500k subscription count, and small youtubers are under and above 100k.
 YouTubers are English speakers from around the world, so it is not based on location but language.
-- YouTube channels are mixed between channels with only Valorant videos, and channels with variety of other content besides Valorant. Mainly to see the comment section through different communities.
+- YouTube channels are mixed between channels with only Valorant videos, and channels with various other content besides Valorant. Mainly to see the comment section through different communities.
 
 ## Issues & Limitations
 ### Limits in Acquiring Data
@@ -156,10 +156,9 @@ Our choice of the YouTube API as the source of our data gives us confidence that
 We have chosen to distribute our data on GitHub
 
 ## Conclusion
-This project has given us an excellent tutorial in the challenges of working with APIs and their limitations as well as helped us to learn about the requirements, difficulties and considerations, of data pre-processing for sentiment analysis. This has been a useful exercise in growing our data science skills and allowed us to return an interesting dataset that could be recreated in different ways to answer many interesting questions.
+This project has given us an excellent tutorial in the challenges of working with APIs and their limitations as well as helping us to learn about the requirements, difficulties and considerations, of data pre-processing for sentiment analysis. This has been a useful exercise in growing our data science skills and allowed us to return an interesting dataset that could be recreated in different ways to answer many interesting questions.
 
 
 ## Contributors ✨
 - Amira Bendjama 
 - Nicole Padilla
-

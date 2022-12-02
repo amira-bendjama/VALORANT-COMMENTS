@@ -33,7 +33,16 @@ Our project looks to showcase how a large gaming company, Riot games, could util
 - Retrieve all the comments of the collected videos, which will have information about the comments such as comment text, total likes, total replies. 
 - Split dataset into small and big Youtubers for specific subscription based analysis.
 - Our dataset has parsed publish date and video duration
-- **NICOLE WRITE YOUR FEATURES**
+- Clean resulting comment data for sentiment analysis and return .txt files ready for analysis. Using following steps:
+-- Remove Emojis
+-- Strip URLs
+-- Clean up HTML text
+-- Convert all text to lower
+-- Handle contractions (replace contractions with full words, i.e. you're >> you are)
+-- Strip remaining extra characters
+-- Remove stop words
+-- Lemmatization (defined per Article 1 as "Lemmatization removes the grammar tense and transforms each word into its original form")
+-- Tokenization
 
 ## REQUIREMENTS
 In this project, we used Youtube API to retrieve comments, and videos from channels. We mainly used [youtube guide](https://developers.google.com/youtube/v3/getting-started), and other [ressources](https://towardsdatascience.com/how-to-build-your-own-dataset-of-youtube-comments-39a1e57aade). 
@@ -46,12 +55,14 @@ In order to access the API, a project must be created in [Google Developer’s C
 ```  
 pip install --upgrade google-api-python-client
 ```
-**NICOLE ADD YOUR PIP INSTALLATION HERE**
-``` 
-other pip
-nltk.download(‘stopwords’)
-nltk.download(‘wordnet’)
-nltk.download(‘omw-1.4’)
+
+```
+pip install contractions
+pip install demoji
+import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 ```  
 Libraries used:
 ``` 

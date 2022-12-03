@@ -145,8 +145,8 @@ In our project, there are **22 Youtubers** selected based on their subscription 
 | comments_videos_channel_info.csv | Merges all data from channel.csv, videos.csv and comments.csv for further analysis  |/data/comments_videos_channel_info.csv |
 | small_youtubers.to_csv | Split dataset from comments_videos_channel_info.csv for further analysis  |data/small_youtubers.csv |
 | big_youtubers.to_csv | Split dataset from comments_videos_channel_info.csv for further analysis  |data/big_youtubers.csv |
-**add text files here**
-.txt files grouped by channel containing text ready for sentiment analysis
+|Shroud.txt| Sykkuno.txt | iiTzTimmy.txt | TenZ.txt | Flights.txt | Grim.txt | Kyedae.txt | fuslie.txt | tarik.txt | MrLowlander.txt | noted.txt | Flexinja.txt | QuarterJade.txt | xirena.txt | Hiko.txt | Red.txt | Keeoh.txt | Ziptie.txt | xChocoBars.txt | vkimm.txt | Peak.txt | Sydeon.txt
+
 
 ## Use Cases
 The goal of collecting the Valorant comment data from the YouTube API is to make it available for sentiment analysis. This sentiment analysis may be interesting to marketers, both of games and products targeted at gamers, streamers looking to improve their popularity or gaming companies seeking feedback.

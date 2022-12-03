@@ -1,7 +1,12 @@
-Final Result of Valorant-Comments.ipynb
+Final Result of Valorant-Comments.ipynb in df_video_comment_channel_data.csv
 
 COLUMN                      NOTE
-Title                       Video Title, ex: "We are the lowest-ranked team in this Valorant..."
+Comment ID                  ex: UgzWDQhfUdW3Si6omLl4AaABAg
+Comment                     comment text, ex: Their synergy was so good, and all of them pla...
+Likes                       comment likes ex: 3533.0
+Replies                     comment replies ex: 3.0
+Video ID                    ex: Kl2XzD5DMoY
+Title	                      Video Title, ex: "We are the lowest-ranked team in this Valorant..."
 Channel Title               YouTuber Name/Channel Title ex: "Sykkuno"
 Channel ID                  YouTube Channel ID, ex: "UCRAEUAmW9kletIzOxhpLRFw"
 Publish time                Video publish time ex: 2021-12-26T15:00:09Z
@@ -9,12 +14,7 @@ Duration                    Length of video ex: 30:15
 Number of comments          Total Video Comments ex: 400.0
 Number of likes             Total Video Likes ex: 32349.0
 Number of views             Total Video Views ex: 770049.0
-video_id                    ex: Kl2XzD5DMoY
 url                         video url ex: https://www.youtube.com/watch?v=Kl2XzD5DMoY
-Comment ID                  ex: UgzWDQhfUdW3Si6omLl4AaABAg
-Comment                     comment text ex: Their synergy was so good, and all of them pla...
-Likes                       comment likes ex: 3533.0
-Replies                     comment replies ex: 3.0
 channel_subscriber_count    ex: 2890000.0
 channel_video_count         ex: 640.0
 channel_view_count          ex: 371243211.0

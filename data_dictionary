@@ -2,7 +2,7 @@ Final Result of Valorant-Comments.ipynb in df_video_comment_channel_data.csv
 
 COLUMN                      NOTE
 Comment ID                  ex: UgzWDQhfUdW3Si6omLl4AaABAg
-Comment                     comment text, ex: Their synergy was so good, and all of them pla...
+Comment                     cleaned comment text, ex: Their synergy was so good, and all of them pla...
 Likes                       comment likes ex: 3533.0
 Replies                     comment replies ex: 3.0
 Video ID                    ex: Kl2XzD5DMoY

@@ -150,7 +150,7 @@ In our project, there are **22 Youtubers** selected based on their subscription 
 | comments_videos_channel_info.csv | Merges all data from channel.csv, videos.csv and comments.csv for further analysis  |/data/comments_videos_channel_info.csv |
 | small_youtubers.to_csv | Split dataset from comments_videos_channel_info.csv for further analysis  |data/small_youtubers.csv |
 | big_youtubers.to_csv | Split dataset from comments_videos_channel_info.csv for further analysis  |data/big_youtubers.csv |
-| Shroud.txt, Sykkuno.txt, iiTzTimmy.txt,  TenZ.txt,  Flights.txt,  Grim.txt,  Kyedae.txt,  fuslie.txt,  tarik.txt,  MrLowlander.txt, noted.txt, Flexinja.txt, QuarterJade.txt, xirena.txt, Hiko.txt, Red.txt, Keeoh.txt, Ziptie.txt, xChocoBars.txt, vkimm.txt, Peak.txt, Sydeon.txt | .txt file for analysis | data/[Channel Title].txt
+| Shroud.txt, Sykkuno.txt, iiTzTimmy.txt,  TenZ.txt,  Flights.txt,  Grim.txt,  Kyedae.txt,  fuslie.txt,  tarik.txt,  MrLowlander.txt, noted.txt, Flexinja.txt, QuarterJade.txt, xirena.txt, Hiko.txt, Red.txt, Keeoh.txt, Ziptie.txt, xChocoBars.txt, vkimm.txt, Peak.txt, Sydeon.txt | .txt file for analysis | data/preprocessed_comments/big_youtubers/[Channel Title].txt, data/preprocessed_comments/small_youtubers/[Channel Title].txt
 
 
 ## Use Cases

@@ -24,7 +24,7 @@ This project collects the most recent comments and videos from a selection of Yo
   * [Contributors ✨](#contributors--)
  
 ## Introduction
-Our project looks to showcase how a large gaming company, Riot games, could utilize data from YouTube comments to garner detailed market feedback on its first-person shooter game Valorant. We focused on selectioning large and small gaming YouTubers playing Valorant, where we collected their most recent videos about the game valorant and retrieved their comments. This collected unique information, not available to Riot through its own YouTube channels, as well as provide insights into potential marketing channels (i.e. through influencer-style partnerships or advertising placements with the identified YouTubers).
+Our project looks to showcase how a large gaming company, Riot games, could utilize data from YouTube comments to garner detailed market feedback on its first-person shooter game Valorant. We focused on selecting large and small gaming YouTubers playing Valorant, where we collected their most recent videos about the game Valorant and retrieved their comments. This collected unique information, not available to Riot through its own YouTube channels, as well as provide insights into potential marketing channels (i.e. through influencer-style partnerships or advertising placements with the identified YouTubers).
 
 ## Features
 - Import Valorant Youtuber of your liking or use the file Youtubers.csv in data folder.
@@ -43,6 +43,7 @@ Our project looks to showcase how a large gaming company, Riot games, could util
 7. Remove stop words
 8. Lemmatization (defined per Article 1 as "Lemmatization removes the grammar tense and transforms each word into its original form")
 9.  Tokenization
+-Return comment data in individual .txt files by channel for sentiment analysis
 
 ## REQUIREMENTS
 In this project, we used Youtube API to retrieve comments, and videos from channels. We mainly used [youtube guide](https://developers.google.com/youtube/v3/getting-started), and other [ressources](https://towardsdatascience.com/how-to-build-your-own-dataset-of-youtube-comments-39a1e57aade). 
@@ -89,6 +90,7 @@ from nltk.stem import WordNetLemmatizer
 3. Run Valorant-Comments.ipynb step by step that contains documentation of each function and provides installation of libraries as needed. 
 4. Valorant-Comments will generate 4 dataset: channels, videos, comments, and comments_videos_channel_info, which is joined table of the 3 tables .
 5. Run Sentiment_Analysis_Preprocessing.ipynb with comments_videos_channel_info.csv. In-file markdown provides installation of libraries as needed and documentation of each function.
+6. Sentiment_Analysis_Prepocessing will return .txt files for each channel in the .csv file used
 
 ## Data Tables
 The design follows these general principles.  Each youtuber, channel and comments is assigned a unique number (Channel ID, Video ID, Comment ID).All of the information relating to the latters are joined in one table comments_videos_channel_info.csv. The Channel IDs are linked to Video tables and each comment ID is linked to videos table.
@@ -145,8 +147,8 @@ In our project, there are **22 Youtubers** selected based on their subscription 
 | comments_videos_channel_info.csv | Merges all data from channel.csv, videos.csv and comments.csv for further analysis  |/data/comments_videos_channel_info.csv |
 | small_youtubers.to_csv | Split dataset from comments_videos_channel_info.csv for further analysis  |data/small_youtubers.csv |
 | big_youtubers.to_csv | Split dataset from comments_videos_channel_info.csv for further analysis  |data/big_youtubers.csv |
-**add text files here**
-.txt files grouped by channel containing text ready for sentiment analysis
+| Shroud.txt, Sykkuno.txt, iiTzTimmy.txt,  TenZ.txt,  Flights.txt,  Grim.txt,  Kyedae.txt,  fuslie.txt,  tarik.txt,  MrLowlander.txt, noted.txt, Flexinja.txt, QuarterJade.txt, xirena.txt, Hiko.txt, Red.txt, Keeoh.txt, Ziptie.txt, xChocoBars.txt, vkimm.txt, Peak.txt, Sydeon.txt | .txt file for analysis | data/[Channel Title].txt
+
 
 ## Use Cases
 The goal of collecting the Valorant comment data from the YouTube API is to make it available for sentiment analysis. This sentiment analysis may be interesting to marketers, both of games and products targeted at gamers, streamers looking to improve their popularity or gaming companies seeking feedback.

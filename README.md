@@ -20,8 +20,10 @@ This project collects the most recent comments and videos from a selection of Yo
     + [Limits in Acquiring Data](#limits-in-acquiring-data)
     + [Limits in Utilizing Data](#limits-in-utilizing-data)
   * [Distribution & Access Rights](#distribution---access-rights)
+  * [Dataset on Kaggle](#Dataset-on-Kaggle)
   * [Conclusion](#conclusion)
   * [Contributors ✨](#contributors--)
+  
  
 ## Introduction
 Our project looks to showcase how a large gaming company, Riot games, could utilize data from YouTube comments to garner detailed market feedback on its first-person shooter game Valorant. We focused on selecting large and small gaming YouTubers playing Valorant, where we collected their most recent videos about the game Valorant and retrieved their comments. This collected unique information, not available to Riot through its own YouTube channels, as well as provide insights into potential marketing channels (i.e. through influencer-style partnerships or advertising placements with the identified YouTubers).
@@ -34,15 +36,16 @@ Our project looks to showcase how a large gaming company, Riot games, could util
 - Split dataset into small and big Youtubers for specific subscription based analysis.
 - Our dataset has parsed publish date and video duration
 - Clean resulting comment data for sentiment analysis and return .txt files ready for analysis. Using following steps:
-1. Remove Emojis
-2.  Strip URLs
-3.  Clean up HTML text
-4. Convert all text to lower
-5.  Handle contractions (replace contractions with full words, i.e. you're >> you are)
-6.  Strip remaining extra characters
-7. Remove stop words
-8. Lemmatization (defined per Article 1 as "Lemmatization removes the grammar tense and transforms each word into its original form")
-9.  Tokenization
+    1. Remove Emojis
+    2.  Strip URLs
+    3.  Clean up HTML text
+    4. Convert all text to lower
+    5.  Handle contractions (replace contractions with full words, i.e. you're >> you are)
+    6.  Strip remaining extra characters
+    7. Remove stop words
+    8. Lemmatization (defined per Article 1 as "Lemmatization removes the grammar tense and transforms each word into its original form")
+    9.  Tokenization.
+    
 -Return comment data in individual .txt files by channel for sentiment analysis
 
 ## REQUIREMENTS
@@ -172,8 +175,10 @@ YouTubers are English speakers from around the world, so it is not based on loca
 ## Distribution & Access Rights
 Our choice of the YouTube API as the source of our data gives us confidence that our data can be publicly accessed and distributed. We selected only data identified by YouTube as public.
 
-We have chosen to distribute our data on GitHub
+We have chosen to distribute our data on GitHub, and Kaggle.
 
+## Dataset on Kaggle 
+The dataset files were too large for Github, so we opted for [Kaggle](https://www.kaggle.com/datasets/amirabendjama/youtube-valorant-comments?datasetId=2697643) to upload our full dataset. 
 ## Conclusion
 This project has given us an excellent tutorial in the challenges of working with APIs and their limitations as well as helping us to learn about the requirements, difficulties and considerations, of data pre-processing for sentiment analysis. This has been a useful exercise in growing our data science skills and allowed us to return an interesting dataset that could be recreated in different ways to answer many interesting questions.
 
